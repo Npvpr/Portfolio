@@ -6,6 +6,12 @@
       border-radius: 50%;
     }
   }
+  .skill_div{
+    .skill_table{
+      display: grid;
+      grid-template-columns: 1fr 6fr;
+    }
+  }
 }
 
 // .about_container > div{
