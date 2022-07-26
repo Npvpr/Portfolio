@@ -1,0 +1,22 @@
+<!-- Added this head wrapper for smoother transform while changing this nav_div from position fixed to position relative.
+    Without this, immediate transform push all other divs beneath too fast -->
+    <div class="header_wrapper">
+        <!-- I made 2 flexboxes in 1 flexbox -->
+        <header id="nav_div" class="nav_div">
+            <div class="nav_others">
+                <div>
+                    <a routerLink="">About</a>
+                </div>
+                <div>
+                    <a routerLink="projects">Projects</a>
+                </div>
+                <div>
+                    <a routerLink="certificates">Certificates</a>
+                </div>
+            </div>
+            
+            <div class="nav_contact">
+                <a routerLink="contactme">Contact Me</a>
+            </div>
+        </header>
+    </div>
